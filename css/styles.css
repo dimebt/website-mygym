@@ -3,10 +3,10 @@ url('https://fonts.googleapis.com/css?family=Open+Sans:300,800&subset=cyrillic')
 
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
-  margin: 0;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
 }
@@ -17,12 +17,13 @@ h1 {
 }
 
 h1 span {
+  padding: 0 0;
   display: block;
 }
 
 h2 {
   font-weight: lighter;
-  font-size: .8em;
+  font-size: .9em;
   color: #fff
 }
 
@@ -37,9 +38,23 @@ h2 {
 
 .container {
   background-image: url(../img/main.png);
-  background-position: center center;
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: auto;
+}
+
+.our-app {
+  padding: 0 2em;
+  display: block;
+}
+
+.our-app-caption h1 {
+  color: #333333
+}
+
+.our-app-description h2 {
+  font-size: .7em;
+  color: #333333
 }
