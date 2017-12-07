@@ -12,6 +12,7 @@ body {
 }
 
 h1 {
+  padding: 1em 0;
   font-weight: bold;
   color: #fff;
   text-shadow: .14em .14em .14em #333333;
@@ -25,6 +26,7 @@ h1 span {
 }
 
 h2 {
+  padding: .7em 0;
   font-weight: lighter;
   font-size: .9em;
   color: #fff;
