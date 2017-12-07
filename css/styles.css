@@ -13,22 +13,29 @@ body {
 
 h1 {
   font-weight: bold;
-  color: #fff
+  color: #fff;
+  text-shadow: .14em .14em .14em #333333;
 }
 
 h1 span {
   padding: 0 0;
   display: block;
+  color: #fff;
+  text-shadow: .14em .14em .14em #333333;
 }
 
 h2 {
   font-weight: lighter;
   font-size: .9em;
-  color: #fff
+  color: #fff;
+  text-shadow: .14em .14em .14em #333333;
 }
 
 .home {
-
+  background-image: url(../img/main.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .downloadapp {
@@ -37,24 +44,36 @@ h2 {
 }
 
 .container {
-  background-image: url(../img/main.png);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
   height: auto;
 }
 
 .our-app {
-  padding: 0 2em;
+  padding: .8em 2em;
   display: block;
+}
+
+.our-app h1 {
+  padding: 1em;
+  text-shadow: .14em .14em .14em #e0e0e0;
 }
 
 .our-app-caption h1 {
   color: #333333
 }
 
+.line {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  height: .1em;
+  background-color: #333333;
+}
+
 .our-app-description h2 {
+  padding: 1em;
   font-size: .7em;
-  color: #333333
+  color: #333333;
+  text-shadow: none;
 }
