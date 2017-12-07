@@ -17,6 +17,16 @@ h1 {
   color: #fff;
   text-shadow: .14em .14em .14em #333333;
 }
+@media (min-width: 60rem) {
+  h1 {
+    font-size: 2em;
+  }
+}
+@media (min-width: 60rem) {
+  h2 {
+    font-weight: lighter;
+  }
+}
 
 h1 span {
   padding: 0 0;
@@ -38,6 +48,55 @@ h2 {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
+}
+
+@media (min-width: 30rem) {
+  .home {
+    padding: 4em 10em;
+  }
+}
+
+@media (min-width: 60rem) {
+  .home {
+    background-image: url(../img/main.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-right: 40rem;
+    padding-top: 14rem;
+    padding-left: 0;
+  }
+}
+@media (min-width: 68rem) {
+  .home {
+    padding-right: 45rem;
+  }
+}
+
+@media (min-width: 76rem) {
+  .home {
+    padding-right: 50rem;
+  }
+}
+
+@media (min-width: 86rem) {
+  .home {
+    padding-right: 55rem;
+  }
+}
+
+@media (min-width: 96rem) {
+  .home {
+    padding-right: 62rem;
+  }
+}
+
+@media (min-width: 106rem) {
+  .home {
+    padding-right: 70rem;
+  }
 }
 
 .downloadapp {
@@ -49,6 +108,12 @@ h2 {
   width: 90%;
   margin: 0 auto;
   height: auto;
+}
+
+@media (min-width: 60rem) {
+  .container {
+    text-align: right;
+  }
 }
 
 .our-app {
