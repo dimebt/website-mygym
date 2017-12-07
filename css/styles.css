@@ -157,6 +157,16 @@ h2 {
   color: #333333;
   text-shadow: none;
 }
+@media (min-width: 60rem) {
+  .our-app-description h2 {
+    font-size: 1.2em;
+  }
+}
+@media (min-width: 96rem) {
+  .our-app-description h2 {
+    font-size: 1.6em;
+  }
+}
 
 .features h1 {
   padding: 1em;
@@ -169,4 +179,11 @@ ul {
   text-decoration: none;
   text-align: left;
   list-style-type: circle;
+}
+@media (min-width: 60rem) {
+  ul {
+    font-size: 1.2em;
+    padding-left: 10em;
+    padding-bottom: 20em;
+  }
 }
