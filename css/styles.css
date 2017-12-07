@@ -52,9 +52,14 @@ h2 {
 .our-app {
   padding: .8em 2em;
   display: block;
+  background-image: url(../img/features.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .our-app h1 {
+  font-weight: 300;
   padding: 1em;
   text-shadow: .14em .14em .14em #e0e0e0;
 }
@@ -73,7 +78,20 @@ h2 {
 
 .our-app-description h2 {
   padding: 1em;
-  font-size: .7em;
+  font-size: .8em;
   color: #333333;
   text-shadow: none;
+}
+
+.features h1 {
+  padding: 1em;
+  text-shadow: .14em .14em .14em #e0e0e0;
+  color: #333333;
+}
+
+ul {
+  font-size: .8em;
+  text-decoration: none;
+  text-align: left;
+  list-style-type: circle;
 }
