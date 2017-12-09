@@ -241,11 +241,41 @@ ul {
   .leftscreen {
     display: inline-block;
     width: 30%;
-    padding-right: 2em;
+    padding-right: 4em;
   }
   .rightscreen {
     display: inline-block;
     width: 30%;
-    padding-left: 2em;
+    padding-left: 4em;
   }
+}
+
+.footercontainer {
+
+}
+
+.footer ul {
+  padding-top: 1em;
+  padding-bottom: 2em;
+  padding-left: 0em;
+  padding-right: 0em;
+  text-align: center;
+}
+.footer li {
+  width: 22%;
+  font-weight: 300;
+  font-size: .7em;
+  display: inline-block;
+  vertical-align: middle;
+  text-shadow: .14em .14em .14em #a5a5a5;
+}
+
+.footer a {
+  color: #666666;
+  text-decoration: none;
+}
+
+.footer a:hover,
+.footer a:focus {
+  color: #333333;
 }
