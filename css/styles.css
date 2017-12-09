@@ -236,3 +236,16 @@ ul {
   padding-top: 1em;
   width: 80%;
 }
+
+@media (min-width: 60rem) {
+  .leftscreen {
+    display: inline-block;
+    width: 30%;
+    padding-right: 2em;
+  }
+  .rightscreen {
+    display: inline-block;
+    width: 30%;
+    padding-left: 2em;
+  }
+}
