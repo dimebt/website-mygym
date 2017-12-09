@@ -264,10 +264,10 @@ ul {
 .footer li {
   width: 22%;
   font-weight: 300;
-  font-size: .7em;
+  font-size: .9em;
   display: inline-block;
   vertical-align: middle;
-  text-shadow: .14em .14em .14em #a5a5a5;
+  text-shadow: .14em .14em .14em #dddddd;
 }
 
 .footer a {
