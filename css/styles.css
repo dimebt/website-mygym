@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-  padding: 1em 0;
+  padding: 2em 0;
   font-weight: bold;
   color: #fff;
   text-shadow: .14em .14em .14em #333333;
@@ -50,6 +50,39 @@ h2 {
   color: #fff;
   text-shadow: .14em .14em .14em #333333;
 }
+
+/* header section
+ --- Navigation ---
+ */
+nav ul {
+  position: absolute;
+  width: 100vw;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  padding-left: 0em;
+  padding-right: 0em;
+  text-align: center;
+ }
+nav li {
+  width: 22%;
+  font-weight: 300;
+  font-size: .8em;
+  display: inline-block;
+  vertical-align: middle;
+  text-shadow: .14em .14em .14em #333333;
+ }
+
+nav a {
+  color: #bcbcbc;
+  text-decoration: none;
+ }
+
+nav a:hover,
+nav a:focus {
+  color: #fff;
+ }
+
+
 
 .home {
   background-image: url(../img/main.png);
@@ -248,10 +281,6 @@ ul {
     width: 30%;
     padding-left: 4em;
   }
-}
-
-.footercontainer {
-
 }
 
 .footer ul {
