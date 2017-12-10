@@ -361,7 +361,7 @@ ul {
   text-shadow: none;
   text-align: justify;
   line-height: 1.5em;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.5);
 
 }
 .privacycontainer p {
@@ -373,7 +373,7 @@ ul {
   font-size: 1em;
   color: #333333;
   text-align: left;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 @media (min-width: 30rem) {
