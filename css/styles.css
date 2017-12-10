@@ -301,12 +301,14 @@ ul {
   .leftscreen {
     display: inline-block;
     width: 30%;
-    padding-right: 4em;
+    padding-right: 2em;
+    padding-left: 2em;
   }
   .rightscreen {
     display: inline-block;
     width: 30%;
-    padding-left: 4em;
+    padding-right: 2em;
+    padding-left: 2em;
   }
 }
 
